@@ -1,0 +1,13 @@
+format: jb-book
+root: my-first-book_intro
+parts:
+- caption: 'Introduction'
+  numbered: true
+  chapters:
+  - file: my-first-book/introduction/chapter
+    sections: 
+    - file: my-first-book/introduction/section
+- caption: 'Part Two'
+  numbered: true
+  chapters:
+  - file: my-first-book/part-two/chapter
